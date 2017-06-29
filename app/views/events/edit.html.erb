@@ -1,0 +1,8 @@
+<h1>Update Event</h1>
+<%= form_for @event do |f| %><br>
+  <%= f.text_field :name, placeholder: "Event Name" %><br>
+  <%= f.date_field :date, placeholder: "..." %><br>
+  <%= f.text_field :location, placeholder: "Location" %><br>
+  <%= f.url_field :pic_url, placeholder: "photos" %><br><br>
+  <%= f.submit %><br>
+<% end %>

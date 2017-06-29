@@ -1,0 +1,33 @@
+<h1><%= @event.name %></h1><br>
+<%= @event.date %><br>
+
+<%= @event.location %><br>
+<%= image_tag @event.pic_url %><br>
+<% if @event.user == current_user %>
+  <%= link_to "Edit", event_edit_path(@event) %>
+  <%= link_to "Delete", event_path(@event), {method: :delete} %>
+<% end %>
+
+<br>
+
+<h4>Say Something</h4>
+<%= form_for [@event, @comment] do |f| %>
+<div>
+  <%= f.text_area :body, placeholder: "Say Something Here" %>
+</div>
+<div>
+  <%= f.submit %>
+</div>
+<% end %>
+
+<% @event.comments.each do |comment| %>
+  <li>
+    <blockquote>
+      <%= comment.body %><br>
+      <%= time_ago_in_words comment.created_at %><br><br>
+    </blockquote>
+    <% if comment.user_id == session[:user_id] %>
+      <%= link_to "Delete", event_comments_path(comment), {method: :delete} %>
+    <% end %>
+  </li>
+<% end %>
