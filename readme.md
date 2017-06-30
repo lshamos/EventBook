@@ -4,13 +4,13 @@
 
 ### EventBook is a place to keep your memories and share the experience. 
 
-`![App Image][ReadMe/ScreenShot.png]`
+`![App Image](ReadMe/ScreenShot.png)`
 ### User logs in and creates an event, documents the details and adds an image. Connects with friends to relive the expereince or creates an event for the future. 
 
 
 ### Trello, Wireframe and ERD
 
-<a href= "<a href= "https://trello.com/b/BegP0Rjo/eventbook">Trello</a>
+<a href= "https://trello.com/b/BegP0Rjo/eventbook">Trello</a>
 
 ### EventBook
 
