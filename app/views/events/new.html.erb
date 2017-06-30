@@ -1,9 +1,12 @@
-<h1>New Event</h1>
-<%= form_for @event, url: new_events_path do |f|%><br>
-<%= f.text_field :name, placeholder: "Event Name" %><br>
-<%= f.date_field :date, placeholder: "..." %><br>
-<%= f.text_field :location, placeholder: "Location" %><br>
-<%= f.url_field :pic_url, placeholder: "photos" %><br>
-
-<%= f.submit %><br>
-<% end %>
+<div class="row">
+  <div class="col-md-6 col-md-offset-3">
+    <h1>New Event</h1>
+    <%= form_for @event, url: new_events_path do |f|%><br>
+    <%= f.text_field :name, placeholder: "Event Name" %><br>
+    <%= f.date_field :date, placeholder: "..." %><br>
+    <%= f.text_field :location, placeholder: "Location" %><br>
+    <%= f.url_field :pic_url, placeholder: "photos" %><br>
+    <%= f.submit %><br>
+    <% end %>
+  </div>
+</div>
