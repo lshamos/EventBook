@@ -4,7 +4,8 @@
 
 ### EventBook is a place to keep your memories and share the experience. 
 
-`![App Image](ReadMe/ScreenShot.png)`
+`!["App Image"][/Users/lorinshamos/code/wdi/EventBookApp/ReadMe/ScreenShot.png]`
+
 ### User logs in and creates an event, documents the details and adds an image. Connects with friends to relive the expereince or creates an event for the future. 
 
 
