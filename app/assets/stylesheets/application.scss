@@ -10,8 +10,17 @@
  * files in this directory. Styles in this file should be added after the last require_* statement.
  * It is generally better to create a new file per style scope.
  *
- 
+
  */
 
  @import "bootstrap-sprockets";
   @import "bootstrap";
+
+body {
+  background-image: url("http://www.cocolabor.org/upload/2017/08/01/laser-show-concert-lights-color-abstraction-psychedelic-wallpaper-concert-lighting-l-fd86fd1c9d3fca01.jpg");
+  background-size: cover;
+}
+
+.title {
+text-color: white;
+}

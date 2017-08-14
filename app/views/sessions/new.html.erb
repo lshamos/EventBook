@@ -1,16 +1,18 @@
-<div class="row">
-  <div class="col-md-6 col-md-offset-3">
-    <h1>Log In</h1>
-    <%= form_for :login, {url: login_path} do |f| %>
-      <div>
-        <%= f.email_field :email, placeholder: "email" %>
+<div className="login">
+  <Grid>
+    <Row>
+        <div class="col-md-6 col-md-offset-3">
+          <h1 class="title">Log In</h1>
+        <FormGroup>
+        <%= form_for :login, {url: login_path} do |f| %>
+        <div>
+          <%= f.email_field :email, placeholder: "email" %>
+          <%= f.password_field :password, placeholder: "password" %>
+          <%= f.submit 'Log In' %>
+        </div>
+      </FormGroup>
+        <% end %>
       </div>
-      <div>
-        <%= f.password_field :password, placeholder: "password" %>
-      </div>
-      <div>
-        <%= f.submit 'Log In' %>
-      </div>
-    <% end %>
-  </div>
+    </Row>
+  </Grid>
 </div>

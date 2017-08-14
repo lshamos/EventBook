@@ -1,13 +1,13 @@
 ## EventBook
-  
-  
 
-### EventBook is a place to keep your memories and share the experience. 
+
+
+### EventBook is a place to keep your memories and share the experiences.
 
 <!-- <img src="ReadMe/ScreenShot.png"> -->
 ![image](ReadMe/ScreenShot.png)
 
-### User logs in and creates an event, documents the details and adds an image. Connects with friends to relive the expereince or creates an event for the future. 
+### User logs in and creates an event, documents the details and adds an image. Connects with friends to relive the experience or creates an event for the future.
 
 
 ### Trello, Wireframe and ERD
@@ -16,7 +16,7 @@
 
 ### EventBook
 
-<a href= "https://salty-garden-61134.herokuapp.com/login">EventBook</a> 
+<a href= "https://salty-garden-61134.herokuapp.com/login">EventBook</a>
 
 ## Development and Technologies
 ### Ruby on Rails, Bootstrap, HTML, CSS, and JavaScript.
@@ -33,4 +33,3 @@
 -  Add friends and link to friends.
 -  Sexy styling.
 -  User profile page with in depth input fields.
-
