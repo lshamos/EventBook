@@ -3,7 +3,7 @@ Rails.application.routes.draw do
 get 'events/create'
 get 'comments/create'
 
-root 'users#index'
+root 'sessions#new'
 
 get '/users' => 'users#index', as: :users
 get '/users/new' => 'users#new', as: :new_users
