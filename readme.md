@@ -7,7 +7,7 @@
 <!-- <img src="ReadMe/ScreenShot.png"> -->
 ![image](ReadMe/ScreenShot.png)
 
-### User logs in and creates an event, documents the details and adds an image. Connects with friends to relive the experience or creates an event for the future.
+### Log in and create or add an event, document the details and add an image. Connect with friends to relive the experience or create an event for the future.
 
 
 ### Trello, Wireframe and ERD
@@ -19,17 +19,21 @@
 <a href= "https://salty-garden-61134.herokuapp.com/login">EventBook</a>
 
 ## Development and Technologies
-### Ruby on Rails, Bootstrap, HTML, CSS, and JavaScript.
+- Ruby on Rails
+- HTML
+- CSS
+- Sass
+- Bootstrap
 
 ## MVP
--  Full CRUD.  
--  Three working Models.
--  Ability to Sign-Up/In/Out.
--  Comment on Events, and Update/Delete both.
--  Bootstrap design implementation.
+- Full CRUD  
+- Three working Models
+- Ability to Sign-Up/In/Out
+- Comment on Events
+- CRUD on comments
+- Bootstrap design implementation
 
-## Still to come.
+## Future Developments
 -  AWS, Paperclip image upload implementation.
 -  Add friends and link to friends.
--  Sexy styling.
 -  User profile page with in depth input fields.
